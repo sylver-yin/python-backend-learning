@@ -25,6 +25,6 @@ print(youtube_url)
 simple_url = youtube_url.removeprefix("https://")
 print(simple_url)
 
-cat = "scarylarry"
+cat = "scarylarry"  # You don't need no spaces in between text, the removeprefix method works fine.
 cat = cat.removeprefix("scary")
 print(cat)

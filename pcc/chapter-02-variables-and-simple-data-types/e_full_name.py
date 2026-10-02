@@ -2,7 +2,9 @@ first_name = "aDA"
 last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 print(full_name)
-print(f"Hello, {full_name.upper()}!")
+print(
+    f"Hello, {full_name.upper()}!"
+)  # F means "format" and it allows us to use variables inside of a string.
 
 first_name = "joHN"
 last_name = "sMTIh"
