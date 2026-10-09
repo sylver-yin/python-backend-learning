@@ -71,7 +71,9 @@ Here I collect my practice, my exercises and my progress to see and share my pat
 
 ---
 
-## 💾 How to run locally 
+## How to run locally 
+
+### 💾 Git method
 
 1. Clone the repository to your device:
 ```bash 
@@ -85,6 +87,8 @@ cd pcc/chapter-01-getting-started
 ```bash
 python hello_world.py
 ```
+
+> Note: Planning to add the Docker method once I learn how to use it. For now only the git method.
 
 ---
 
