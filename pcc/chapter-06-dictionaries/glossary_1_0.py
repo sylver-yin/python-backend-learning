@@ -3,7 +3,7 @@ programming_glossary = {
     "tuple": "Tuple is a variation of list that can't be changed by methods, but can be modified with variable.",
     "list": "List lets you to store the variables inside of it and can be modified with variables",
     "constant": "Constant is the value that will never change throughout the programm's lifespan until you do it manually",
-    "comments": "Comments lets you to create a piece of text inside of your code that will be ignored by IDE but may help your or your colleagues.",
+    "comments": "With comments you can create a piece of text inside of your code that IDE will ignore, but it may help your or your colleagues.",
 }
 
 print(f"Strings: \n{programming_glossary['string']}")
