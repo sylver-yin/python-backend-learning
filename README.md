@@ -56,7 +56,7 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 5: `if` Statements
   - [x] Chapter 6: Dictionaries
   - [x] Chapter 7: User Input and `while` Loops
-  - [ ] Chapter 8: Functions
+  - [x] Chapter 8: Functions
   - [ ] Chapter 9: Classes
   - [ ] Chapter 10: Files and Exceptions
   - [ ] Chapter 11: Testing Your Code
