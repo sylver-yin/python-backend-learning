@@ -61,6 +61,16 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [ ] Chapter 10: Files and Exceptions
   - [ ] Chapter 11: Testing Your Code
 
+- [ ] **Part 2: Projects**
+  - [ ] Chapter 12: A Ship That Fires Bullets
+  - [ ] Chapter 13: Aliens!
+  - [ ] Chapter 14: Scoring
+  - [ ] Chapter 15: Generating Data
+  - [ ] Chapter 16: Downloading Data
+  - [ ] Chapter 17: Working With APIs
+
+> Note: Part 2 is optional and my main goal for now is to finish chapter 1 and try chapter 2 if I will find it interesting. Also, I'm not gonna do the part with Django, but I definitely will check it up. I also may delete this block later on, if I will be sure I don't need it and not planning to complete it.
+
 ### 🚀 Advanced backend & Infrastructure
 - [ ] Design databases and write raw SQL
 - [ ] Develop asynchronous endpoints using FastAPI
