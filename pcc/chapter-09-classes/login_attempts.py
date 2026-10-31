@@ -2,7 +2,7 @@ class User:
     """Simple simulation of a user profile."""
 
     def __init__(self, first_name, last_name, age, gender, nationality):
-        """Initialise the first and last name of a user"""
+        """Initialise the user's info."""
         self.first = first_name
         self.last = last_name
         self.full_name = f"{self.first.title()} {self.last.title()}"
