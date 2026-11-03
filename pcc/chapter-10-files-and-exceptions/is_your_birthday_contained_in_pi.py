@@ -4,8 +4,7 @@ path = Path(__file__).with_name("pi_one_million_digits.txt")
 contents = path.read_text()
 
 pi_string = ""
-lines = contents.splitlines()
-for line in lines:
+for line in contents.splitlines():
     pi_string += line.strip()
 
 birthday = input("Enter your birthday, in the form mmddyy: ")
