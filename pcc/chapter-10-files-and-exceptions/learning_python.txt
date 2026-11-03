@@ -1,0 +1,10 @@
+In Python you can work with strings and digits.
+In Python you can create lists, tuples and dictionaries.
+In Python you can make 'for... in...' loops.
+In Python you can use if-elif-else statements.
+In Python you can work with user's inputs.
+In Python you can create functions and import them.
+In Python you can work with while loops and set flags.
+In Python you can create classes and subclasses via inheritance.
+In Python you can work create your own modules.
+In Python you can work with different libraries.
