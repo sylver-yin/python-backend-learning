@@ -7,7 +7,7 @@ def read_contents(path):
     try:
         contents = path.read_text()
     except FileNotFoundError:
-        print(f"Sorry, the file '{path.name}' was not found.")
+        pass
     else:
         for name in contents.splitlines():
             print(f"\t{name}")
