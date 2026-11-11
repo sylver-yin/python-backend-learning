@@ -1,4 +1,4 @@
-#🐍 Learning Python: Zero to Developer
+# 🐍 Learning Python: Zero to Developer
 
 Welcome! I'm Artem (A.K.A. sylver-yin) and this is my first ever repository. It's my way from absolute zero to a real commercial junior backend developer. 
 
