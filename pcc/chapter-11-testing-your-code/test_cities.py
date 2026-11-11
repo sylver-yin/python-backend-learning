@@ -9,5 +9,5 @@ def test_city_country_name_pairs():
 
 def test_city_country_population_pairs():
     """Test if city-country-population trio working propperly."""
-    city_country_population_pair = get_city_country_pair("santiago", "chile", "5000000")
-    assert city_country_population_pair == "Santiago, Chile, Population - 5000000."
+    city_country_population_pair = get_city_country_pair("santiago", "chile", 5000000)
+    assert city_country_population_pair == f"Santiago, Chile, Population - {5000000}."
