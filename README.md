@@ -1,4 +1,4 @@
-#🐍 Learning Python: Zero to Developer
+# 🐍 Learning Python: Zero to Developer
 
 Welcome! I'm Artem (A.K.A. sylver-yin) and this is my first ever repository. It's my way from absolute zero to a real commercial junior backend developer. 
 
@@ -58,7 +58,7 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 7: User Input and `while` Loops
   - [x] Chapter 8: Functions
   - [x] Chapter 9: Classes
-  - [x] Chapter 10: Files and Exceptions
+  - [ ] Chapter 10: Files and Exceptions
   - [ ] Chapter 11: Testing Your Code
 
 - [ ] **Part 2: Projects**
