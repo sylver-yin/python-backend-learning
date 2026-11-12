@@ -106,7 +106,7 @@ YOUR-PATH\venv\Scripts\Activate.ps1
 ```bash
 source venv/bin/activate
 ```
-4. Install depencies:
+4. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
