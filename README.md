@@ -111,8 +111,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 5. Run the project:
+* Select the directory (if you didn't do it before. We'll take chapter-01 as reference):
 ```bash
-python main.py
+cd YOUR-PATH/pcc/chapter-01-getting-started
+```
+* Run the project from git terminal:
+```bash
+python hello_world.py
 ```
 
 > Note: For not, requirements.txt is kinda empty, but it will be filled with other things later on. And also I don't actually know how to do it on Mac or Linux, so it may be changed.
