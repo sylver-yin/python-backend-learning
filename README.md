@@ -48,7 +48,7 @@ Here I collect my practice, my exercises and my progress to see and share my pat
 ## My roadmap and progress
 
 ### 📑 Programming language basics (With Python Crash Course, Third Edition by Eric Matthes)
-- [ ] **Part 1: Basics**
+- [x] **Part 1: Basics**
   - [x] Chapter 1: Getting Started
   - [x] Chapter 2: Variables and Simple Data Types
   - [x] Chapter 3: Introducing Lists
@@ -58,8 +58,8 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 7: User Input and `while` Loops
   - [x] Chapter 8: Functions
   - [x] Chapter 9: Classes
-  - [ ] Chapter 10: Files and Exceptions
-  - [ ] Chapter 11: Testing Your Code
+  - [x] Chapter 10: Files and Exceptions
+  - [x] Chapter 11: Testing Your Code
 
 - [ ] **Part 2: Projects**
   - [ ] Chapter 12: A Ship That Fires Bullets
@@ -89,16 +89,33 @@ Here I collect my practice, my exercises and my progress to see and share my pat
 ```bash 
 git clone https://github.com/sylver-yin/python-backend-learning
 ```
-2. Choose the folder with the chapter that you are interested in:
+2. Open the repository in git on your device:
 ```bash
-cd pcc/chapter-01-getting-started
+cd YOUR-PATH/pcc
 ```
-3. Run the script via terminal:
+3. Setup an isolated virtual enviroment (venv):
+* Windows (cmd):
 ```bash
-python hello_world.py
+YOUR-PATH/venv/Scripts/activate
+```
+* Windows (PowerShell):
+```bash
+YOUR-PATH\venv\Scripts\Activate.ps1
+```
+* MacOS/Linux:
+```bash
+source venv/bin/activate
+```
+4. Install depencies:
+```bash
+pip install -r requirements.txt
+```
+5. Run the project:
+```bash
+python main.py
 ```
 
-> Note: Planning to add the Docker method once I learn how to use it. For now only the git method.
+> Note: For not, requirements.txt is kinda empty, but it will be filled with other things later on. And also I don't actually know how to do it on Mac or Linux, so it may be changed.
 
 ---
 
