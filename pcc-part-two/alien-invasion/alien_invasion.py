@@ -1,7 +1,6 @@
 import sys
 
 import pygame
-
 from settings import Settings
 
 
@@ -17,9 +16,10 @@ class AlienInvasion:
         self.settings = Settings()
 
         self.screen = pygame.display.set_mode(
-            self.settings.screen_width,
-            self.settings.screen_height,
-            self.settings.backdrop_colour,
+            (
+                self.settings.screen_width,
+                self.settings.screen_height,
+            )
         )  # NOTE: In pygame this is called surface. Elements are displayed there. Every elements have a surface of own.
         pygame.display.set_caption("Alien Invasion")
 
@@ -32,7 +32,7 @@ class AlienInvasion:
                     sys.exit()
 
             # NOTE: Redraws the screen during each pass through the loop.
-            self.screen.fill(self.backdrop_colour)
+            self.screen.fill(self.settings.backdrop_colour)
 
             # NOTE: Make the most recently drawn screen visible, meaning, refreshing it seamlessly for the user.
             pygame.display.flip()
