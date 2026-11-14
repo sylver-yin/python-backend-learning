@@ -4,7 +4,7 @@ from survey import AnonymousSurvey
 
 @pytest.fixture
 def language_survey():
-    """A survey that will be available to all test functions."""
+    """A survey that'll be available to all test functions."""
     question = "What language did you first learn to speak?"
     language_survey = AnonymousSurvey(question)
     return language_survey

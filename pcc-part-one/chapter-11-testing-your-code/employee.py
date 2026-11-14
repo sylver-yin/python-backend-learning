@@ -8,6 +8,6 @@ class Employee:
         self.annual_salary = annual_salary
 
     def give_raise(self, added_money=5000):
-        """Raises the employee and their salary by $5000 by default but accepts other values"""
+        """Raise the employee and their salary by $5000 by default but accepts other values"""
         self.annual_salary += added_money
         return self.annual_salary

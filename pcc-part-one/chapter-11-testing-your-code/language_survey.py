@@ -11,5 +11,5 @@ while True:
         break
     langugae_survey.store_response(response)
 
-print("\nThank you to everyone who participated in the survey!")
+print("\nThank you to everyone who participated in this survey!")
 langugae_survey.show_results()

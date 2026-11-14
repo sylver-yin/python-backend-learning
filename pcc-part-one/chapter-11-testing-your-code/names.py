@@ -6,7 +6,7 @@ while True:
     if first == "q":
         break
     middle = (
-        input("If you have a middle name, state it here. If not, reamin blank: ")
+        input("If you have a middle name, state it, please. If not, left blank: ")
         .lower()
         .strip()
     )

@@ -1,5 +1,5 @@
 def get_formatted_name(first, last, middle=""):
-    """Generate a neatly formatted full name."""
+    """Generate a neatly organised and formatted full name."""
     if middle:
         full_name = f"{first} {middle} {last}"
     else:
