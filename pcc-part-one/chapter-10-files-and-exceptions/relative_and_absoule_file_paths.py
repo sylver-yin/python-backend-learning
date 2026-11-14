@@ -2,7 +2,7 @@ from pathlib import Path
 
 # NOTE: This vvv is called an absoulte file path. It tells exactly where the file is.
 path = Path(
-    "D:/python-backend-learning/pcc/chapter-10-files-and-exceptions/text-files/pi_digits_inside.txt"
+    "D:/python-backend-learning/pcc-part-one/chapter-10-files-and-exceptions/text-files/pi_digits_inside.txt"
 )  # NOTE: If we shorten it to 'chapter-10-files-and-exceptions/pi_digits.txt' it will be a relative path. However sometimes it doesn't work.
 contents = path.read_text().strip()
 print(contents)
