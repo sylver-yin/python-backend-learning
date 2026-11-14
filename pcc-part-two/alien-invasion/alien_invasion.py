@@ -2,6 +2,8 @@ import sys
 
 import pygame
 
+from settings import Settings
+
 
 class AlienInvasion:
     """Overall class to manage game assets and behaviour."""
@@ -12,14 +14,14 @@ class AlienInvasion:
         self.clock = (
             pygame.time.Clock()
         )  # NOTE: Makes an instance of "Clock" class so you can work with framerate.
+        self.settings = Settings()
 
         self.screen = pygame.display.set_mode(
-            (1200, 800)
+            self.settings.screen_width,
+            self.settings.screen_height,
+            self.settings.backdrop_colour,
         )  # NOTE: In pygame this is called surface. Elements are displayed there. Every elements have a surface of own.
         pygame.display.set_caption("Alien Invasion")
-
-        # NOTE: Set the background colour in RGB.
-        self.backdrop_colour = (210, 210, 210)
 
     def run_game(self):
         """Start the main loop for the game."""
