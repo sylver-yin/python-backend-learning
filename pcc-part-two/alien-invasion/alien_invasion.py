@@ -2,6 +2,7 @@ import sys
 
 import pygame
 from settings import Settings
+from ship import Ship
 
 
 class AlienInvasion:
@@ -23,6 +24,8 @@ class AlienInvasion:
         )  # NOTE: In pygame this is called surface. Elements are displayed there. Every elements have a surface of own.
         pygame.display.set_caption("Alien Invasion")
 
+        self.ship = Ship(self)
+
     def run_game(self):
         """Start the main loop for the game."""
         while True:
@@ -33,6 +36,7 @@ class AlienInvasion:
 
             # NOTE: Redraws the screen during each pass through the loop.
             self.screen.fill(self.settings.backdrop_colour)
+            self.ship.blitme()
 
             # NOTE: Make the most recently drawn screen visible, meaning, refreshing it seamlessly for the user.
             pygame.display.flip()
