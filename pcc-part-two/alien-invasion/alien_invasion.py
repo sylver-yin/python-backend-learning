@@ -1,6 +1,7 @@
 import sys
 
 import pygame
+from game_character import UncleChubby
 from settings import Settings
 from ship import Ship
 
@@ -25,6 +26,7 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         self.ship = Ship(self)
+        self.kuafu = UncleChubby(self)
 
     def run_game(self):
         """Start the main loop for the game."""
@@ -43,6 +45,7 @@ class AlienInvasion:
         """Update images on the screen, and flip to the new screen."""
         self.screen.fill(self.settings.backdrop_colour)
         self.ship.blitme()
+        self.kuafu.blitme()
 
         pygame.display.flip()
 
