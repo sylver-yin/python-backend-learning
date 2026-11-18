@@ -62,14 +62,12 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 11: Testing Your Code
 
 - [ ] **Part 2: Projects**
-  - [ ] Chapter 12: A Ship That Fires Bullets
-  - [ ] Chapter 13: Aliens!
-  - [ ] Chapter 14: Scoring
+  - [x] Chapter 12: A Ship That Fires Bullets
   - [ ] Chapter 15: Generating Data
   - [ ] Chapter 16: Downloading Data
   - [ ] Chapter 17: Working With APIs
 
-> Note: Part 2 is optional and my main goal for now is to finish chapter 1 and try chapter 2 if I will find it interesting. Also, I'm not gonna do the part with Django, but I definitely will check it up. I also may delete this block later on, if I will be sure I don't need it and not planning to complete it.
+> Note: Update: I decided not to touch the rest of pygame, unless I feel like it but it's gonna be either in my local repository or loaded to the github just as my practice. Nothing more. I don't really wanna do a lot of pygame for now, not untill I finish with my stack.
 
 ### 🚀 Advanced backend & Infrastructure
 - [ ] Design databases and write raw SQL

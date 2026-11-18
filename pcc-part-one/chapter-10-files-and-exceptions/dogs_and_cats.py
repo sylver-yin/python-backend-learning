@@ -3,7 +3,7 @@ from pathlib import Path
 
 def read_contents(path):
     """Read the contents of the file provided."""
-    print(f"\nHere is the contents of '{path.name}':")
+    print(f"\nHere are the contents of '{path.name}':")
     try:
         contents = path.read_text()
     except FileNotFoundError:
