@@ -62,7 +62,7 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 11: Testing Your Code
 
 - [ ] **Part 2: Projects**
-  - [ ] Chapter 12: A Ship That Fires Bullets
+  - [x] Chapter 12: A Ship That Fires Bullets
   - [ ] Chapter 15: Generating Data
   - [ ] Chapter 16: Downloading Data
   - [ ] Chapter 17: Working With APIs
