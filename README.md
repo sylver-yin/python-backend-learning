@@ -61,9 +61,9 @@ Here I collect my practice, my exercises and my progress to see and share my pat
   - [x] Chapter 10: Files and Exceptions
   - [x] Chapter 11: Testing Your Code
 
-- [ ] **Part 2: Projects**
+- [x] **Part 2: Projects**
   - [x] Chapter 12: A Ship That Fires Bullets
-  - [ ] Chapter 17: Working With APIs
+  - [x] Chapter 17: Working With APIs
 
 > Note: Update: I decided not to touch the rest of pygame, unless I feel like it but it's gonna be either in my local repository or loaded to the github just as my practice. Nothing more. I don't really wanna do a lot of pygame for now, not untill I finish with my stack.
 
